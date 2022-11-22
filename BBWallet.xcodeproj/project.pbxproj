@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2099AED292D38100075805A /* BBWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099AEC292D38100075805A /* BBWalletApp.swift */; };
+		A2099AEF292D38100075805A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099AEE292D38100075805A /* MainView.swift */; };
+		A2099AF1292D38120075805A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2099AF0292D38120075805A /* Assets.xcassets */; };
+		A2099AF4292D38120075805A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2099AF3292D38120075805A /* Preview Assets.xcassets */; };
+		A2099AFE292D38ED0075805A /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099AFD292D38ED0075805A /* TabBarItem.swift */; };
+		A2099B00292D38F50075805A /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099AFF292D38F50075805A /* TabBarItemsPreferenceKey.swift */; };
+		A2099B04292D3A060075805A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099B03292D3A060075805A /* Color.swift */; };
+		A2099B06292D3AE60075805A /* CustomTabBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099B05292D3AE60075805A /* CustomTabBarContainer.swift */; };
+		A2099B08292D3AEC0075805A /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099B07292D3AEC0075805A /* CustomTabBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2099AE9292D38100075805A /* BBWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2099AEC292D38100075805A /* BBWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBWalletApp.swift; sourceTree = "<group>"; };
+		A2099AEE292D38100075805A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A2099AF0292D38120075805A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2099AF3292D38120075805A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2099AFD292D38ED0075805A /* TabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		A2099AFF292D38F50075805A /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		A2099B03292D3A060075805A /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A2099B05292D3AE60075805A /* CustomTabBarContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainer.swift; sourceTree = "<group>"; };
+		A2099B07292D3AEC0075805A /* CustomTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2099AE6292D38100075805A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2099AE0292D38100075805A = {
+			isa = PBXGroup;
+			children = (
+				A2099AEB292D38100075805A /* BBWallet */,
+				A2099AEA292D38100075805A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2099AEA292D38100075805A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2099AE9292D38100075805A /* BBWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2099AEB292D38100075805A /* BBWallet */ = {
+			isa = PBXGroup;
+			children = (
+				A2099AEC292D38100075805A /* BBWalletApp.swift */,
+				A2099AFA292D38A60075805A /* Models */,
+				A2099AFB292D38B30075805A /* View */,
+				A2099AFC292D38C40075805A /* ViewModels */,
+				A2099B02292D39E40075805A /* Extensions */,
+				A2099AF0292D38120075805A /* Assets.xcassets */,
+				A2099AF2292D38120075805A /* Preview Content */,
+			);
+			path = BBWallet;
+			sourceTree = "<group>";
+		};
+		A2099AF2292D38120075805A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2099AF3292D38120075805A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2099AFA292D38A60075805A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2099AFF292D38F50075805A /* TabBarItemsPreferenceKey.swift */,
+				A2099AFD292D38ED0075805A /* TabBarItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2099AFB292D38B30075805A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2099AEE292D38100075805A /* MainView.swift */,
+				A2099B01292D391C0075805A /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2099AFC292D38C40075805A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A2099B01292D391C0075805A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A2099B05292D3AE60075805A /* CustomTabBarContainer.swift */,
+				A2099B07292D3AEC0075805A /* CustomTabBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A2099B02292D39E40075805A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2099B03292D3A060075805A /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2099AE8292D38100075805A /* BBWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2099AF7292D38120075805A /* Build configuration list for PBXNativeTarget "BBWallet" */;
+			buildPhases = (
+				A2099AE5292D38100075805A /* Sources */,
+				A2099AE6292D38100075805A /* Frameworks */,
+				A2099AE7292D38100075805A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBWallet;
+			productName = BBWallet;
+			productReference = A2099AE9292D38100075805A /* BBWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2099AE1292D38100075805A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A2099AE8292D38100075805A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = A2099AE4292D38100075805A /* Build configuration list for PBXProject "BBWallet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2099AE0292D38100075805A;
+			productRefGroup = A2099AEA292D38100075805A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2099AE8292D38100075805A /* BBWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2099AE7292D38100075805A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2099AF4292D38120075805A /* Preview Assets.xcassets in Resources */,
+				A2099AF1292D38120075805A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2099AE5292D38100075805A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2099B08292D3AEC0075805A /* CustomTabBarView.swift in Sources */,
+				A2099AFE292D38ED0075805A /* TabBarItem.swift in Sources */,
+				A2099AEF292D38100075805A /* MainView.swift in Sources */,
+				A2099B06292D3AE60075805A /* CustomTabBarContainer.swift in Sources */,
+				A2099AED292D38100075805A /* BBWalletApp.swift in Sources */,
+				A2099B04292D3A060075805A /* Color.swift in Sources */,
+				A2099B00292D38F50075805A /* TabBarItemsPreferenceKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A2099AF5292D38120075805A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2099AF6292D38120075805A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2099AF8292D38120075805A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BBWallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XJCC23FML;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitriispichakov.BBWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2099AF9292D38120075805A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BBWallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 5XJCC23FML;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitriispichakov.BBWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2099AE4292D38100075805A /* Build configuration list for PBXProject "BBWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2099AF5292D38120075805A /* Debug */,
+				A2099AF6292D38120075805A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2099AF7292D38120075805A /* Build configuration list for PBXNativeTarget "BBWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2099AF8292D38120075805A /* Debug */,
+				A2099AF9292D38120075805A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2099AE1292D38100075805A /* Project object */;
+}
