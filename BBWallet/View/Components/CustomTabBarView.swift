@@ -15,9 +15,6 @@ struct CustomTabBarView: View {
     @Namespace private var namespace
     @State var localSelection: TabBarItem
     
-    
-    
-    
     // MARK: BODY
     var body: some View {
         ZStack(alignment: .bottom) {
@@ -32,8 +29,6 @@ struct CustomTabBarView: View {
     }
 }
 
-
-
 // MARK: PREVIEW
 struct CustomTabBarView_Previews: PreviewProvider {
     
@@ -47,9 +42,6 @@ struct CustomTabBarView_Previews: PreviewProvider {
         .ignoresSafeArea()
     }
 }
-
-
-
 
 
 // MARK: EXTENSION
