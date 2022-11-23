@@ -29,7 +29,7 @@ struct CustomTabBarContainerView<Content:View>: View {
                 
 //                if selectViewModel.showTabBar {
                     CustomTabBarView(tabs: tabs, selection: $selection, localSelection: selection)
-                        .offset(y: height / 260)
+                        .offset(y: 33)
 //                }
             }
             .onPreferenceChange(TabBarItemsPreferenceKey.self) { value in
@@ -42,7 +42,7 @@ struct CustomTabBarContainerView<Content:View>: View {
 // MARK: PREVIEW
 struct CustomTabBarContainerView_Previews: PreviewProvider {
     
-    static let tabs: [TabBarItem] = [.rides, .garage, .market, .profile]
+    static let tabs: [TabBarItem] = [.home, .wallet, .rewards, .browser, .profile]
     
     static var previews: some View {
         CustomTabBarContainerView(selection: .constant(tabs.first!)) {

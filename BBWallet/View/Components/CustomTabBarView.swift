@@ -32,7 +32,7 @@ struct CustomTabBarView: View {
 // MARK: PREVIEW
 struct CustomTabBarView_Previews: PreviewProvider {
     
-    static let tabs: [TabBarItem] = [.rides, .garage, .market, .profile]
+    static let tabs: [TabBarItem] = [.home, .wallet, .rewards, .browser, .profile]
     
     static var previews: some View {
         VStack {
@@ -50,18 +50,22 @@ extension CustomTabBarView {
     // TabBar button view
     private func tabView(tab: TabBarItem) -> some View {
         VStack {
-            Image(systemName: tab.iconName)
+            Image(localSelection == tab ? tab.iconNameSelected : tab.iconName)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 95, height: 95)
                 .foregroundColor(.white)
             
             Text(tab.title)
                 .font(.custom("Fact", size: 12))
                 .foregroundColor(localSelection == tab ? .white : .gray)
+                .offset(y:-25)
         }
     }
     
     // Tab bar
     private var tabBar: some View {
-        HStack {
+        HStack(spacing: -18) {
             ForEach(tabs, id: \.self) { tab in
                 tabView(tab: tab)
                     .onTapGesture {

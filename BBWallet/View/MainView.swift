@@ -11,18 +11,21 @@ struct MainView: View {
     
     // MARK: PROPERTIES
     @State private var selection: String = "home"
-    @State var tabSelection: TabBarItem =  .rides
+    @State var tabSelection: TabBarItem =  .home
     
     var body: some View {
         CustomTabBarContainerView(selection: $tabSelection) {
             Color.red
-                .tabBarItem(tab: .rides, selection: $tabSelection)
+                .tabBarItem(tab: .home, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
             Color.blue
-                .tabBarItem(tab:  .garage, selection: $tabSelection)
+                .tabBarItem(tab:  .wallet, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
             Color.orange
-                .tabBarItem(tab: .market, selection: $tabSelection)
+                .tabBarItem(tab: .rewards, selection: $tabSelection)
+//                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
+            Color.gray
+                .tabBarItem(tab: .browser, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
             Color.green
                 .tabBarItem(tab: .profile, selection: $tabSelection)

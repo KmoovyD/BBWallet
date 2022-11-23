@@ -9,29 +9,41 @@ import Foundation
 import SwiftUI
 
 enum TabBarItem: Hashable {
-    case rides, garage, market, profile
+    case home, wallet, rewards, browser, profile
     
     var iconName: String {
         switch self {
-        case .rides: return "arrow.triangle.branch"
-        case .garage: return "car.2"
-        case .market: return "cart"
-        case .profile: return "person.fill"
+        case .home: return "homeButton"
+        case .wallet: return "walletButton"
+        case .rewards: return "rewardsButton"
+        case .browser: return "browserButton"
+        case .profile: return "profileButton"
+        }
+    }
+    
+    var iconNameSelected: String {
+        switch self {
+        case .home: return "homeButtonSelected"
+        case .wallet: return "walletButtonSelected"
+        case .rewards: return "rewardsButtonSelected"
+        case .browser: return "browserButtonSelected"
+        case .profile: return "profileButtonSelected"
         }
     }
     
     var title: String {
         switch self {
-        case .rides: return "Rides"
-        case .garage: return "Garage"
-        case .market: return "Market"
+        case .home: return "Home"
+        case .wallet: return "Wallet"
+        case .rewards: return "Rewards Center"
+        case .browser: return "Browser"
         case .profile: return "Profile"
         }
     }
     
     var color: Color {
         switch self {
-        case .rides, .garage, .market, .profile: return Color.theme.accent
+        case .home, .wallet, .rewards, .browser, .profile: return Color.theme.accent
         }
     }
     
