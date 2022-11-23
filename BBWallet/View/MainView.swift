@@ -12,6 +12,7 @@ struct MainView: View {
     // MARK: PROPERTIES
     @State private var selection: String = "home"
     @State var tabSelection: TabBarItem =  .home
+    var test = 5
     
     var body: some View {
         CustomTabBarContainerView(selection: $tabSelection) {
