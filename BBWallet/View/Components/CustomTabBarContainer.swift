@@ -29,7 +29,7 @@ struct CustomTabBarContainerView<Content:View>: View {
                 
 //                if selectViewModel.showTabBar {
                     CustomTabBarView(tabs: tabs, selection: $selection, localSelection: selection)
-                        .offset(y: 33)
+                    .offset(y: height / 24.06)
 //                }
             }
             .onPreferenceChange(TabBarItemsPreferenceKey.self) { value in

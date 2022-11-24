@@ -53,19 +53,19 @@ extension CustomTabBarView {
             Image(localSelection == tab ? tab.iconNameSelected : tab.iconName)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 95, height: 95)
+                .frame(width: width / 4.505, height: height / 9.747)
                 .foregroundColor(.white)
             
             Text(tab.title)
-                .font(.custom("Fact", size: 12))
+                .font(.custom("Fact", size: width / 35.666))
                 .foregroundColor(localSelection == tab ? .white : .gray)
-                .offset(y:-25)
+                .offset(y: -height / 37.04)
         }
     }
     
     // Tab bar
     private var tabBar: some View {
-        HStack(spacing: -18) {
+        HStack(spacing: -width / 23.777) {
             ForEach(tabs, id: \.self) { tab in
                 tabView(tab: tab)
                     .onTapGesture {
