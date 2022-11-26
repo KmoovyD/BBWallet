@@ -35,7 +35,7 @@ enum TabBarItem: Hashable {
         switch self {
         case .home: return "Home"
         case .wallet: return "Wallet"
-        case .rewards: return "Rewards Center"
+        case .rewards: return "Rewards\n Center"
         case .browser: return "Browser"
         case .profile: return "Profile"
         }
@@ -46,5 +46,4 @@ enum TabBarItem: Hashable {
         case .home, .wallet, .rewards, .browser, .profile: return Color.theme.accent
         }
     }
-    
 }
