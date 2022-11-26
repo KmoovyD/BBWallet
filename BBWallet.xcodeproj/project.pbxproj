@@ -16,6 +16,22 @@
 		A2099B04292D3A060075805A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099B03292D3A060075805A /* Color.swift */; };
 		A2099B06292D3AE60075805A /* CustomTabBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099B05292D3AE60075805A /* CustomTabBarContainer.swift */; };
 		A2099B08292D3AEC0075805A /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2099B07292D3AEC0075805A /* CustomTabBarView.swift */; };
+		D227B00B29325C8E00C406D4 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227B00A29325C8E00C406D4 /* Browser.swift */; };
+		D227B00D29325D6100C406D4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227B00C29325D6100C406D4 /* WebView.swift */; };
+		D227B00F2932632C00C406D4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227B00E2932632C00C406D4 /* ProfileView.swift */; };
+		D2AEC467293246EC00DFA4B6 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AEC466293246EC00DFA4B6 /* SigninView.swift */; };
+		D2AEC46A29324E0200DFA4B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AEC46929324E0200DFA4B6 /* HomeView.swift */; };
+		D2AEC46E2932511E00DFA4B6 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AEC46D2932511E00DFA4B6 /* WalletView.swift */; };
+		D2AEC4702932520B00DFA4B6 /* RewardsCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AEC46F2932520B00DFA4B6 /* RewardsCenter.swift */; };
+		E33D1A54292FD9900072F7CF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D1A53292FD9900072F7CF /* ViewModel.swift */; };
+		E33D1A56292FDBBA0072F7CF /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D1A55292FDBBA0072F7CF /* AppUser.swift */; };
+		E33D1A58292FDBF40072F7CF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D1A57292FDBF40072F7CF /* LoginView.swift */; };
+		E33D1A5A292FE3CE0072F7CF /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D1A59292FE3CE0072F7CF /* UIScreen.swift */; };
+		E33D1A61292FE4EA0072F7CF /* Fact-ExpandedBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = E33D1A5D292FE4EA0072F7CF /* Fact-ExpandedBold.woff2 */; };
+		E33D1A62292FE4EA0072F7CF /* Fact-ExpandedBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = E33D1A5E292FE4EA0072F7CF /* Fact-ExpandedBold.woff */; };
+		E33D1A63292FE4EA0072F7CF /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = E33D1A5F292FE4EA0072F7CF /* style.css */; };
+		E33D1A64292FE4EA0072F7CF /* Fact-ExpandedBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E33D1A60292FE4EA0072F7CF /* Fact-ExpandedBold.ttf */; };
+		E37683182931145F0044A0ED /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37683172931145F0044A0ED /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +45,22 @@
 		A2099B03292D3A060075805A /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		A2099B05292D3AE60075805A /* CustomTabBarContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainer.swift; sourceTree = "<group>"; };
 		A2099B07292D3AEC0075805A /* CustomTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		D227B00A29325C8E00C406D4 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
+		D227B00C29325D6100C406D4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		D227B00E2932632C00C406D4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D2AEC466293246EC00DFA4B6 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		D2AEC46929324E0200DFA4B6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D2AEC46D2932511E00DFA4B6 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		D2AEC46F2932520B00DFA4B6 /* RewardsCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsCenter.swift; sourceTree = "<group>"; };
+		E33D1A53292FD9900072F7CF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = BBWallet/ViewModel/ViewModel.swift; sourceTree = SOURCE_ROOT; };
+		E33D1A55292FDBBA0072F7CF /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		E33D1A57292FDBF40072F7CF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E33D1A59292FE3CE0072F7CF /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		E33D1A5D292FE4EA0072F7CF /* Fact-ExpandedBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fact-ExpandedBold.woff2"; sourceTree = "<group>"; };
+		E33D1A5E292FE4EA0072F7CF /* Fact-ExpandedBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fact-ExpandedBold.woff"; sourceTree = "<group>"; };
+		E33D1A5F292FE4EA0072F7CF /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		E33D1A60292FE4EA0072F7CF /* Fact-ExpandedBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fact-ExpandedBold.ttf"; sourceTree = "<group>"; };
+		E37683172931145F0044A0ED /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +93,11 @@
 		A2099AEB292D38100075805A /* BBWallet */ = {
 			isa = PBXGroup;
 			children = (
+				E33D1A5B292FE4C30072F7CF /* Fonts */,
 				A2099AEC292D38100075805A /* BBWalletApp.swift */,
 				A2099AFA292D38A60075805A /* Models */,
 				A2099AFB292D38B30075805A /* View */,
-				A2099AFC292D38C40075805A /* ViewModels */,
+				D2AEC4682932471700DFA4B6 /* ViewModel */,
 				A2099B02292D39E40075805A /* Extensions */,
 				A2099AF0292D38120075805A /* Assets.xcassets */,
 				A2099AF2292D38120075805A /* Preview Content */,
@@ -85,6 +118,7 @@
 			children = (
 				A2099AFF292D38F50075805A /* TabBarItemsPreferenceKey.swift */,
 				A2099AFD292D38ED0075805A /* TabBarItem.swift */,
+				E33D1A55292FDBBA0072F7CF /* AppUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,16 +127,15 @@
 			isa = PBXGroup;
 			children = (
 				A2099AEE292D38100075805A /* MainView.swift */,
+				D2AEC46929324E0200DFA4B6 /* HomeView.swift */,
+				D2AEC46D2932511E00DFA4B6 /* WalletView.swift */,
+				D2AEC46F2932520B00DFA4B6 /* RewardsCenter.swift */,
+				D227B00A29325C8E00C406D4 /* Browser.swift */,
+				D227B00E2932632C00C406D4 /* ProfileView.swift */,
+				E3768316293114490044A0ED /* Login */,
 				A2099B01292D391C0075805A /* Components */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		A2099AFC292D38C40075805A /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		A2099B01292D391C0075805A /* Components */ = {
@@ -118,8 +151,47 @@
 			isa = PBXGroup;
 			children = (
 				A2099B03292D3A060075805A /* Color.swift */,
+				E33D1A59292FE3CE0072F7CF /* UIScreen.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D2AEC4682932471700DFA4B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E33D1A53292FD9900072F7CF /* ViewModel.swift */,
+				D227B00C29325D6100C406D4 /* WebView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E33D1A5B292FE4C30072F7CF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E33D1A5C292FE4D20072F7CF /* Fact */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E33D1A5C292FE4D20072F7CF /* Fact */ = {
+			isa = PBXGroup;
+			children = (
+				E33D1A60292FE4EA0072F7CF /* Fact-ExpandedBold.ttf */,
+				E33D1A5E292FE4EA0072F7CF /* Fact-ExpandedBold.woff */,
+				E33D1A5D292FE4EA0072F7CF /* Fact-ExpandedBold.woff2 */,
+				E33D1A5F292FE4EA0072F7CF /* style.css */,
+			);
+			path = Fact;
+			sourceTree = "<group>";
+		};
+		E3768316293114490044A0ED /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E33D1A57292FDBF40072F7CF /* LoginView.swift */,
+				E37683172931145F0044A0ED /* SignupView.swift */,
+				D2AEC466293246EC00DFA4B6 /* SigninView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33D1A61292FE4EA0072F7CF /* Fact-ExpandedBold.woff2 in Resources */,
 				A2099AF4292D38120075805A /* Preview Assets.xcassets in Resources */,
+				E33D1A63292FE4EA0072F7CF /* style.css in Resources */,
 				A2099AF1292D38120075805A /* Assets.xcassets in Resources */,
+				E33D1A64292FE4EA0072F7CF /* Fact-ExpandedBold.ttf in Resources */,
+				E33D1A62292FE4EA0072F7CF /* Fact-ExpandedBold.woff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,11 +269,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2099B08292D3AEC0075805A /* CustomTabBarView.swift in Sources */,
+				D2AEC46A29324E0200DFA4B6 /* HomeView.swift in Sources */,
+				E33D1A56292FDBBA0072F7CF /* AppUser.swift in Sources */,
+				D2AEC467293246EC00DFA4B6 /* SigninView.swift in Sources */,
 				A2099AFE292D38ED0075805A /* TabBarItem.swift in Sources */,
 				A2099AEF292D38100075805A /* MainView.swift in Sources */,
 				A2099B06292D3AE60075805A /* CustomTabBarContainer.swift in Sources */,
+				D227B00D29325D6100C406D4 /* WebView.swift in Sources */,
+				D2AEC4702932520B00DFA4B6 /* RewardsCenter.swift in Sources */,
 				A2099AED292D38100075805A /* BBWalletApp.swift in Sources */,
+				D227B00B29325C8E00C406D4 /* Browser.swift in Sources */,
+				E33D1A5A292FE3CE0072F7CF /* UIScreen.swift in Sources */,
 				A2099B04292D3A060075805A /* Color.swift in Sources */,
+				E33D1A54292FD9900072F7CF /* ViewModel.swift in Sources */,
+				D2AEC46E2932511E00DFA4B6 /* WalletView.swift in Sources */,
+				E33D1A58292FDBF40072F7CF /* LoginView.swift in Sources */,
+				D227B00F2932632C00C406D4 /* ProfileView.swift in Sources */,
+				E37683182931145F0044A0ED /* SignupView.swift in Sources */,
 				A2099B00292D38F50075805A /* TabBarItemsPreferenceKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
