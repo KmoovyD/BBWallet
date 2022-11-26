@@ -13,9 +13,16 @@ let height = UIScreen.main.bounds.height
 @main
 struct BBWalletApp: App {
     
+    @StateObject private var viewModel = ViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            MainView()
+            if viewModel.loggedIn == true {
+                MainView()
+            } else {
+                LoginView()
+                    .environmentObject(viewModel)
+            }
         }
     }
 }
