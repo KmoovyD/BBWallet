@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "nft_drop_pic.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

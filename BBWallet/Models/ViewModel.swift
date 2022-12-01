@@ -12,8 +12,7 @@ class ViewModel: ObservableObject {
     
     
     //@AppStorage("loggedIn") var loggedIn = false
-    @Published var loggedIn = false
+    @Published var loggedIn = true
     @AppStorage("appUsers") var users = [AppUser(email: "test@test.com", username: "test", password: "1234Test")]
     @AppStorage("currentUser") var currentUser: AppUser?
-    
 }

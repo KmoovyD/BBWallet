@@ -16,7 +16,7 @@ struct MainView: View {
     
     var body: some View {
         CustomTabBarContainerView(selection: $tabSelection) {
-            Color.red
+            HomeView()
                 .tabBarItem(tab: .home, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
             Color.blue
@@ -32,6 +32,7 @@ struct MainView: View {
                 .tabBarItem(tab: .profile, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
         }
+        .environment(\.colorScheme, .dark)
         .navigationBarHidden(true)
     }
 }
