@@ -22,7 +22,7 @@ struct MainView: View {
             Color.blue
                 .tabBarItem(tab:  .wallet, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
-            Color.orange
+            RewardsView()
                 .tabBarItem(tab: .rewards, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
             Color.gray

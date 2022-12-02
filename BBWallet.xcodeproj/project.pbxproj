@@ -28,6 +28,7 @@
 		E37683182931145F0044A0ED /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37683172931145F0044A0ED /* SignupView.swift */; };
 		E385D64B2938F2CD0051824F /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D64A2938F2CD0051824F /* RewardsView.swift */; };
 		E385D64D2938F32E0051824F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D64C2938F32E0051824F /* Helper.swift */; };
+		E385D64F2939FA360051824F /* SendRecieveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E385D64E2939FA360051824F /* SendRecieveButton.swift */; };
 		E3BEC9E72936102D00F2B689 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BEC9E62936102D00F2B689 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		E37683172931145F0044A0ED /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		E385D64A2938F2CD0051824F /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
 		E385D64C2938F32E0051824F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E385D64E2939FA360051824F /* SendRecieveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRecieveButton.swift; sourceTree = "<group>"; };
 		E3BEC9E62936102D00F2B689 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 			children = (
 				A2099AEE292D38100075805A /* MainView.swift */,
 				E3BEC9E62936102D00F2B689 /* HomeView.swift */,
+				E385D64E2939FA360051824F /* SendRecieveButton.swift */,
 				E385D64A2938F2CD0051824F /* RewardsView.swift */,
 				E3768316293114490044A0ED /* Login */,
 				A2099B01292D391C0075805A /* Components */,
@@ -273,6 +276,7 @@
 				A2099B04292D3A060075805A /* Color.swift in Sources */,
 				E33D1A54292FD9900072F7CF /* ViewModel.swift in Sources */,
 				E33D1A58292FDBF40072F7CF /* LoginView.swift in Sources */,
+				E385D64F2939FA360051824F /* SendRecieveButton.swift in Sources */,
 				E37683182931145F0044A0ED /* SignupView.swift in Sources */,
 				A2099B00292D38F50075805A /* TabBarItemsPreferenceKey.swift in Sources */,
 			);

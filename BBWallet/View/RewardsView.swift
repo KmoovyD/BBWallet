@@ -23,7 +23,7 @@ struct RewardsView: View {
                             .font(.title2)
                             .frame(width: width, height: flexHeight(47))
                             .background {
-                                LinearGradient.rewardViewTextBG
+                                LinearGradient.almostBlack
                             }
                         ZStack {
                             Image("reward_featured_bg")
@@ -152,7 +152,7 @@ struct RewardsView: View {
                             .font(.title2)
                             .frame(width: width, height: flexHeight(47))
                             .background {
-                                LinearGradient.rewardViewTextBG
+                                LinearGradient.almostBlack
                             }
                         
                         ZStack {
@@ -170,7 +170,7 @@ struct RewardsView: View {
                         .font(.title2)
                         .frame(width: width, height: flexHeight(47))
                         .background {
-                            LinearGradient.rewardViewTextBG
+                            LinearGradient.almostBlack
                         }
                     
                     Button {
@@ -213,7 +213,7 @@ struct RewardsView: View {
                     }
                     .frame(width: width, height: flexHeight(47))
                     .background {
-                        LinearGradient.rewardViewTextBG
+                        LinearGradient.almostBlack
                     }
                     
                     VStack(spacing: 20) {
