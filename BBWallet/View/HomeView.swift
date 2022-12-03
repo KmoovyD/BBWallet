@@ -78,27 +78,9 @@ struct HomeView: View {
                                     Spacer()
                                     Spacer()
                                     VStack {
-                                        HStack {
-                                            Button {
-                                                withAnimation {
-                                                    showAmount.toggle()
-                                                }
-                                            } label: {
-                                                Image(systemName: showAmount ? "eye" : "eye.slash")
-                                                    .font(.system(size: 14))
-                                                    .foregroundColor(.white.opacity(0.9))
-                                            }
-                                            if showAmount {
-                                                Text("1400,00$")
-                                                    .font(.system(size: 32))
-                                                    .fontWeight(.bold)
-                                            } else {
-                                                RoundedRectangle(cornerRadius: 18)
-                                                    .fill(.ultraThinMaterial)
-                                                    .frame(width: flexWidth(150))
-                                            }
-                                        }
-                                        .frame(height: flexHeight(44))
+                                        TotalValueView(showAmount: $showAmount, fontSize: 32)
+                                            .frame(height: flexHeight(44))
+                                        
                                         HStack(spacing: 20) {
                                             SendRecieveButton(type: "send")
                                             SendRecieveButton(type: "recieve")
@@ -114,7 +96,7 @@ struct HomeView: View {
                             VStack(spacing: 10) {
                                 RewardsPreview(image: "moovy_gleam_pic", title: "Moovy Gleam Reward", daysLeft: "3d")
                                 
-                                RewardsPreview(image: "btc_offering_pic", title: "BBT Offering Giveaway", daysLeft: "12d")
+                                RewardsPreview(image: "bbt_offering_pic", title: "BBT Offering Giveaway", daysLeft: "12d")
                             }
                             .padding(.bottom)
                         }

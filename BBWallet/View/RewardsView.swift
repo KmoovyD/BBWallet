@@ -158,7 +158,7 @@ struct RewardsView: View {
                         ZStack {
                             VStack(spacing: 12) {
                                 ContestPreview(image: "moovy_gleam_pic", title: "Moovy Gleam Reward", days: "21h")
-                                ContestPreview(image: "btc_offering_pic", title: "BBT Offering Giveaway", days: "3d")
+                                ContestPreview(image: "bbt_offering_pic", title: "BBT Offering Giveaway", days: "3d")
                                 ContestPreview(image: "discover_bbsoft_pic", title: "Discover BBSoft", days: "12d")
                             }
                         }
