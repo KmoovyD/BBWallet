@@ -25,8 +25,10 @@ struct MainView: View {
             RewardsView()
                 .tabBarItem(tab: .rewards, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
-            Color.gray
-                .tabBarItem(tab: .browser, selection: $tabSelection)
+            NavigationView {
+                WebView(request: URLRequest(url: URL(string: "https://bbsoft.io")!))
+            }
+            .tabBarItem(tab: .browser, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
             ProfileView()
                 .tabBarItem(tab: .profile, selection: $tabSelection)
