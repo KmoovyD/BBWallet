@@ -28,7 +28,7 @@ struct MainView: View {
             Color.gray
                 .tabBarItem(tab: .browser, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
-            Color.green
+            ProfileView()
                 .tabBarItem(tab: .profile, selection: $tabSelection)
 //                .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
         }
