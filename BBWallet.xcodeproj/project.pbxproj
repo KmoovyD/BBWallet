@@ -20,6 +20,8 @@
 		E32104C0293B55C400EB9A01 /* TotalValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32104BF293B55C400EB9A01 /* TotalValueView.swift */; };
 		E32104C2293B659700EB9A01 /* TokenListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32104C1293B659700EB9A01 /* TokenListItemView.swift */; };
 		E32104C4293B712900EB9A01 /* NFTListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32104C3293B712900EB9A01 /* NFTListItemView.swift */; };
+		E32104C6293B764300EB9A01 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32104C5293B764300EB9A01 /* ProfileView.swift */; };
+		E32104C8293B7B9F00EB9A01 /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32104C7293B7B9F00EB9A01 /* ProfileButtonView.swift */; };
 		E33D1A54292FD9900072F7CF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D1A53292FD9900072F7CF /* ViewModel.swift */; };
 		E33D1A56292FDBBA0072F7CF /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D1A55292FDBBA0072F7CF /* AppUser.swift */; };
 		E33D1A58292FDBF40072F7CF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D1A57292FDBF40072F7CF /* LoginView.swift */; };
@@ -51,6 +53,8 @@
 		E32104BF293B55C400EB9A01 /* TotalValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalValueView.swift; sourceTree = "<group>"; };
 		E32104C1293B659700EB9A01 /* TokenListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenListItemView.swift; sourceTree = "<group>"; };
 		E32104C3293B712900EB9A01 /* NFTListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTListItemView.swift; sourceTree = "<group>"; };
+		E32104C5293B764300EB9A01 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E32104C7293B7B9F00EB9A01 /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
 		E33D1A53292FD9900072F7CF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModel.swift; path = BBWallet/Models/ViewModel.swift; sourceTree = SOURCE_ROOT; };
 		E33D1A55292FDBBA0072F7CF /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		E33D1A57292FDBF40072F7CF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 				E3BEC9E62936102D00F2B689 /* HomeView.swift */,
 				E32104BD293B533200EB9A01 /* WalletView.swift */,
 				E385D64A2938F2CD0051824F /* RewardsView.swift */,
+				E32104C5293B764300EB9A01 /* ProfileView.swift */,
 				E3768316293114490044A0ED /* Login */,
 				A2099B01292D391C0075805A /* Components */,
 			);
@@ -157,6 +162,7 @@
 				E32104BF293B55C400EB9A01 /* TotalValueView.swift */,
 				E32104C1293B659700EB9A01 /* TokenListItemView.swift */,
 				E32104C3293B712900EB9A01 /* NFTListItemView.swift */,
+				E32104C7293B7B9F00EB9A01 /* ProfileButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -292,8 +298,10 @@
 				E33D1A54292FD9900072F7CF /* ViewModel.swift in Sources */,
 				E33D1A58292FDBF40072F7CF /* LoginView.swift in Sources */,
 				E32104C0293B55C400EB9A01 /* TotalValueView.swift in Sources */,
+				E32104C8293B7B9F00EB9A01 /* ProfileButtonView.swift in Sources */,
 				E385D64F2939FA360051824F /* SendRecieveButton.swift in Sources */,
 				E37683182931145F0044A0ED /* SignupView.swift in Sources */,
+				E32104C6293B764300EB9A01 /* ProfileView.swift in Sources */,
 				A2099B00292D38F50075805A /* TabBarItemsPreferenceKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
